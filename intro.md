@@ -18,6 +18,6 @@ a:active{ /* Al dar click sobre el enlace este se subraya */
 ```
 OJO: En proyectos muy pequeños, pruebas o prototipos usa CSS en la etiqueta `<style>` por simplicidad. En proyectos grandes, usa CSS en archivos externos.
 
-OJO: Es una buena practica al iniciar un nuevo proyecto resetear sus estilos.
+OJO: Es una buena practica resetear los estilos de un proyecto, al iniciarlo.
 
 Puedes usar `resets` como [meyerweb](https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css).
