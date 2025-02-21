@@ -46,7 +46,7 @@ OJO: Es una buena practica definir las clases usando `minusculas` y `-`.
 ---
 ### Cascada y herencia
 
-**Cascada** es el efecto en el que el último elemento que tiene el mismo estilo y la misma especificidad gana.
+Cascada es el efecto en el que el último elemento que tiene el mismo estilo y la misma especificidad gana.
 
 ```html
 <!-- En este caso, por cascada el ultimo "color" es el que se aplica -->
