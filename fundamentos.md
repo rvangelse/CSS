@@ -43,7 +43,32 @@ OJO: Es recomendable siempre agrupar elementos en clases y usar las id, en casos
 
 OJO: Es una buena practica definir las clases usando `minusculas` y `-`. 
 
+---
+### Cascada y herencia
 
+**Cascada** es el efecto en el que el último elemento que tiene el mismo estilo y la misma especificidad gana.
 
+```html
+<!-- En este caso, por cascada el ultimo "color" es el que se aplica -->
+<!DOCTYPE html>
+<html>
 
+<head>
+  <style>
+    p {
+      color: red;
+    }
+  </style>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <!-- Estilo efectivo -->
+  <p style="color: green;">Texto</p> 
+</body>
+
+</html>
+```
+---
+### Especificidad
 
