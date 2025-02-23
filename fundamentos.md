@@ -72,3 +72,50 @@ Cascada es el efecto en el que el último elemento que tiene el mismo estilo y l
 ---
 ### Especificidad
 
+La especificidad del selector pesa mas que la herencia de la cascada, al aplicar estilos.
+
+```html
+<!-- Especificidad -->
+<!-- Etiqueta/clase/id > id > clase > Etiqueta Especifica > Etiqueta Global -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    p.textos#texto1 { /* > */
+      color: blue !important;
+    }
+
+    p.textos#texto1 { /* > */
+      color: green;
+    }
+
+    #texto1 { /* > */
+      color: yellow;
+    }
+
+    .textos { /* > */
+      color: orange;
+    }
+
+    p { /* > */
+      color: red;
+    }
+
+    body { /* > */
+      color: purple;
+      font-size: 25px;
+    }
+  </style>
+</head>
+
+<body>
+  <p id="texto1" class="textos">Texto</p>
+</body>
+
+</html>
+```
+
+OJO: Manten tu CSS lo más simple posible. Utiliza selectores de clase en lugar de selectores de id o de etiquetas cuando sea posible.
+
