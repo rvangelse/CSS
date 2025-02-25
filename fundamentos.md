@@ -142,3 +142,77 @@ OJO: No uses unidades en `px` para todos los elementos de diseño. Considera el 
 ---
 ### Practica 1: Fundamentos de CSS
 
+**Codigo**
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos</title>
+    <style>
+        body{
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        #cabecera{
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        #cabecera h1{
+            font-size: 38px;
+            text-align: center;
+        }
+        #menu a{
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+        #principal{
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+        a {
+            color: #0077cc;
+        }
+    </style>
+</head>
+<body>
+    <header id="cabecera">
+        <h1>Mi Pagina Atractiva</h1>
+        <nav id = "menu">
+            <a href="#">Inicio</a>
+            <a href="#">Acerca de</a>
+            <a href="#">Servicios</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </header>
+    <main id="principal">
+        <section>
+            <h2><strong>Contenido principal</strong></h2>
+            <p>Bienvido a mi pagina web atractiva y minimalista. Aqui encontraras informacion interesante sobre diversos temas. <a href="#">¡Haz clic aqui!</a></p>
+        </section>
+        <section>
+            <span>Contenido 1</span>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta quibusdam quaerat cum repudiandae, saepe iusto dolore possimus ea eius, magnam nisi? Pariatur eaque, ab perspiciatis alias minus in fuga deserunt!</p>
+        </section>
+
+    </main>
+    
+</body>
+</html>
+```
+**Output**
+
+<p align="center">
+  <img src="imagenes/grafico2.png" width="300">
+</p>
