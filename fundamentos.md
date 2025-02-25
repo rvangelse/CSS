@@ -138,3 +138,7 @@ OJO: Manten tu CSS lo más simple posible. Utiliza selectores de clase en lugar 
 
 ```
 OJO: No uses unidades en `px` para todos los elementos de diseño. Considera el uso de unidades relativas como `em`, `rem` y `%` para crear diseños más flexibles y accesibles.
+
+---
+### Practica 1: Fundamentos de CSS
+
