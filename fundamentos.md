@@ -214,5 +214,5 @@ OJO: No uses unidades en `px` para todos los elementos de diseño. Considera el 
 **Output**
 
 <p align="center">
-  <img src="imagenes/grafico2.png" width="300">
+  <img src="imagenes/grafico2.png" width="450">
 </p>
