@@ -129,9 +129,9 @@ OJO: Manten tu CSS lo más simple posible. Utiliza selectores de clase en lugar 
       /* px, unidad absoluta */
       width: 300px;
       /* %, unidad relativa al tamaño en px del padre */
-      width: 50%;
+      width: 50%; 
       /* em, unidad relativa al font-size en px del padre */
-      font-size: 3em;
+      font-size: 3em; /* 3 veces el tamaño del padre */
       /* rem, unidad relativa al font-size en px de la raiz */
       font-size: 3rem;
     }
