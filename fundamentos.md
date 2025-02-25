@@ -119,3 +119,22 @@ La especificidad del selector pesa mas que la herencia de la cascada, al aplicar
 
 OJO: Manten tu CSS lo más simple posible. Utiliza selectores de clase en lugar de selectores de id o de etiquetas cuando sea posible.
 
+---
+### Unidades
+
+```css
+
+    h1 { /* Unidades: */
+      background: greenyellow;
+      /* px, unidad absoluta */
+      width: 300px;
+      /* %, unidad relativa al tamaño en px del padre */
+      width: 50%;
+      /* em, unidad relativa al font-size en px del padre */
+      font-size: 3em;
+      /* rem, unidad relativa al font-size en px de la raiz */
+      font-size: 3rem;
+    }
+
+```
+OJO: No uses unidades en `px` para todos los elementos de diseño. Considera el uso de unidades relativas como `em`, `rem` y `%` para crear diseños más flexibles y accesibles.
