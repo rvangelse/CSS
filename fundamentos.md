@@ -152,7 +152,7 @@ OJO: No uses unidades en `px` para todos los elementos de diseño. Considera el 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fundamentos</title>
     <style>
-        body{
+        body{ /* Reseteo los estilos */
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
@@ -160,21 +160,21 @@ OJO: No uses unidades en `px` para todos los elementos de diseño. Considera el 
         #cabecera{
             background-color: #333;
             color: white;
-            padding: 10px;
-            text-align: center;
+            padding: 10px; /* Relleno del header */
+            text-align: center; /* Alineacion */
         }
         #cabecera h1{
-            font-size: 38px;
+            font-size: 38px; /* Tamaño de la fuente */
             text-align: center;
         }
         #menu a{
             color: white;
-            text-decoration: none;
-            margin: 15px;
+            text-decoration: none; /* Quitar subrayado */
+            margin: 10px; /* Espacio entre elementos */
         }
         #principal{
-            max-width: 800px;
-            margin: auto;
+            max-width: 800px; /* Ancho maximo */
+            margin: auto; 
             padding: 20px;
         }
         p {
