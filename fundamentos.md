@@ -205,9 +205,7 @@ OJO: No uses unidades en `px` para todos los elementos de diseño. Considera el 
             <span>Contenido 1</span>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta quibusdam quaerat cum repudiandae, saepe iusto dolore possimus ea eius, magnam nisi? Pariatur eaque, ab perspiciatis alias minus in fuga deserunt!</p>
         </section>
-
     </main>
-    
 </body>
 </html>
 ```
