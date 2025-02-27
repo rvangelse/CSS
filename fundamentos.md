@@ -12,30 +12,29 @@ OJO: Siempre verifica detenidamente tus selectores y asegúrate de que las propi
 ### Selectores
 
 ```css
-    p { /* Selector de etiquetas */
-      color: blue;
-      font-size: 25px;
-    }
+p { /* Selector de etiquetas */
+  color: blue;
+  font-size: 25px;
+}
 
-    .clase-texto { /* Selector de clases */
-      color: red;
-      font-size: 25px;
-    }
+.clase-texto { /* Selector de clases */
+  color: red;
+  font-size: 25px;
+}
 
-    #texto-unico { /* Selector de id */
-      color: green;
-      font-size: 25px;
-    }
+#texto-unico { /* Selector de id */
+  color: green;
+  font-size: 25px;
+}
 
-    .clase-texto span { /* Selector de una etiqueta en una clase */
-      color: purple;
-      font-size: 25px;
-    }
+.clase-texto span { /* Selector de una etiqueta en una clase */
+  color: purple;
+  font-size: 25px;
+}
 
-    p,
-    span { /* Selector de un grupo de etiquetas */
-      text-decoration: underline;
-    }
+p,span { /* Selector de un grupo de etiquetas */
+  text-decoration: underline;
+}
 ```
 El `*` es el selector global.
 
@@ -124,17 +123,17 @@ OJO: Manten tu CSS lo más simple posible. Utiliza selectores de clase en lugar 
 
 ```css
 
-    h1 { /* Unidades: */
-      background: greenyellow;
-      /* px, unidad absoluta */
-      width: 300px;
-      /* %, unidad relativa al tamaño en px del padre */
-      width: 50%; 
-      /* em, unidad relativa al font-size en px del padre */
-      font-size: 3em; /* 3 veces el tamaño del padre */
-      /* rem, unidad relativa al font-size en px de la raiz */
-      font-size: 3rem;
-    }
+h1 { /* Unidades: */
+  background: greenyellow;
+  /* px, unidad absoluta */
+  width: 300px;
+  /* %, unidad relativa al tamaño en px del padre */
+  width: 50%; 
+  /* em, unidad relativa al font-size en px del padre */
+  font-size: 3em; /* 3 veces el tamaño del padre */
+  /* rem, unidad relativa al font-size en px de la raiz */
+  font-size: 3rem;
+}
 
 ```
 OJO: No uses unidades en `px` para todos los elementos de diseño. Considera el uso de unidades relativas como `em`, `rem` y `%` para crear diseños más flexibles y accesibles.

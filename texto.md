@@ -22,4 +22,35 @@
 ```
 OJO: Puedes importar fuentes de [Google](https://fonts.google.com/).
 
-OJO: Puedes usar el atributo `text-transform` para transformar un texto de mayusculas a minusculas y viceversa, usando CSS.
+---
+### Transformaciones
+Puedes usar el atributo `text-transform` para transformar un texto de mayusculas a minusculas y viceversa, usando CSS.
+
+```css
+p{  /* A mayusculas */
+    text-transform: uppercase;
+    /* A minusculas */ 
+    text-transform: lowercase;
+    /* A mayusculas solo las primeras letras de cada palabra */ 
+    text-transform: capitalize; 
+}
+```
+---
+
+### Espaciamiento
+
+```css
+/* Conserva los espacios y saltos de línea */
+.preserve {
+    white-space: pre;
+}
+/* No permite saltos de línea y trunca el texto */
+.nowrap {
+    white-space: nowrap;
+}
+/* Permite romper palabras largas */
+.word-wrap {
+    word-wrap: break-word;
+}
+```
+---
