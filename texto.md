@@ -52,7 +52,15 @@ p{  /* A mayusculas */
 .word-wrap {
     word-wrap: break-word;
 }
+/* Envolturas de texto */
+.text-wrap {
+    /* Texto distribuido de forma balanceada */
+    text-wrap: balance; 
+    /* Texto distribuido esteticamente */
+    text-wrap: pretty;
+}
 ```
 ---
-### Modelo de Caja
+
+    
 
