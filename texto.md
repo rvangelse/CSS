@@ -21,3 +21,5 @@
 </head>
 ```
 OJO: Puedes importar fuentes de [Google](https://fonts.google.com/).
+
+OJO: Puedes usar el atributo `text-transform` para transformar un texto de mayusculas a minusculas y viceversa, usando CSS.
