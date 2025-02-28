@@ -185,7 +185,7 @@ a{  /* Elimina el subrayado */
 **Output**
 
 <p align="center">
-  <img src="imagenes/grafico3.png" width="450">
+  <img src="imagenes/grafico3.png" width="500">
 </p>
     
 
