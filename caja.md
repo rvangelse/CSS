@@ -1,4 +1,4 @@
-# Modelo de Caja
+# Modelo de caja
 
 ### Caja
 
@@ -22,15 +22,16 @@ span {
 }
 ```
 
-OJO: `box-sizing: content-box` viene por default.
-OJO: Es una buena practica usar `box-sizing: border-box`.
+OJO: `box-sizing: content-box;` viene por default.
+OJO: Es una buena practica usar `box-sizing: border-box;`
 
 ---
 
 ### Margen y relleno
 
 ```css
-div,span {
+div,
+span {
   background-color: red;
   /* Arriba-Derecha-Abajo-Izquierda */
   padding: 100px 20px 30px 80px;
@@ -71,6 +72,27 @@ span {
   border-bottom-width: 5px;
 }
 ```
+
 ---
 
-### 
+### Contorno
+Es una especie de borde extra-caja. 
+
+```css
+span {
+  display: inline-block;
+  padding: 20px;
+  /* Contorno simplificado */
+  outline: solid 20px red; 
+  /* Contorno por parametros */
+  outline-style: solid;
+  outline-width: 20px;
+  outline-color: red;
+}
+```
+OJO: No existe `outline-top-color: blue;`
+
+OJO: Utiliza el contorno para enfatizar algunos elementos interactivos en tu página.
+
+---
+### Practica 3: Modelo de caja
