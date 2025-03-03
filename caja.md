@@ -202,3 +202,7 @@ OJO: Utiliza el contorno para enfatizar algunos elementos interactivos en tu pá
 ```
 **Output**
 
+<p align="center">
+  <img src="imagenes/grafico5.png" width="300">
+</p>
+
