@@ -203,6 +203,6 @@ OJO: Utiliza el contorno para enfatizar algunos elementos interactivos en tu pá
 **Output**
 
 <p align="center">
-  <img src="imagenes/grafico5.png" width="600">
+  <img src="imagenes/grafico5.png" width="650">
 </p>
 
