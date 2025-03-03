@@ -1,7 +1,7 @@
 # Modelo de caja
 
 <p align="center">
-  <img src="imagenes/grafico4.png" width="350">
+  <img src="imagenes/grafico4.png" width="300">
 </p>
 
 ### Caja
