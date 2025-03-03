@@ -22,3 +22,28 @@
 ```
 OJO: `box-sizing: content-box` viene por default.
 OJO: Es una buena practica usar `box-sizing: border-box`.
+
+---
+### Margen y Relleno
+
+```css
+div, span {
+      background-color: red;
+      /* Arriba-Derecha-Abajo-Izquierda */
+      padding: 100px 20px 30px 80px;
+      /* Arriba-DerechaIzquierda-Abajo */
+      padding: 100px 40px 30px;
+      /* ArribaAbajo-DerechaIzquierda */
+      padding: 100px 40px;
+      /* ArribaDerechaAbajoIzquierda */
+      padding: 10px;
+      /* Se puede aislar, tambien */
+      padding-top: 10px;
+      /* Funciona igual para el margin */
+      margin: 1px 20px 40px 5px;
+      display: inline-block;
+    }
+```
+### Borde
+
+
