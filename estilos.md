@@ -37,7 +37,7 @@ h1 {
     color: #0011ff;
   }
 ```
-OJO: Es recomendable usar los formatos `RGB` y `RGBA
+OJO: Es recomendable usar los formatos `RGB` y `RGBA` 
 
 OJO: Prueba este [recurso](https://gradients.app/es/new) para crear gradientes.
 
