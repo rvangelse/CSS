@@ -44,3 +44,18 @@ OJO: Prueba este [recurso](https://gradients.app/es/new) para crear gradientes.
 ---
 ### Modelos
 
+```css
+div {
+    /* Modelo hsl */
+    color: hsl(120, 100%, 50%);
+    /* Modelo hsla */
+    color: hsla(120, 100%, 50%, 0.5);
+    /* Modelo lab */
+    background-color: lab(100 0 100);
+    /* Modelo lch */ 
+    background-color: lch(40% 100 0);
+    /* Modelo oklch */
+    background-color: oklch(0.41 0.44 1.18);
+  }
+```  
+
