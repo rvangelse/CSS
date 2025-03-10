@@ -58,6 +58,6 @@ div {
     background-color: oklch(0.41 0.44 1.18);
   }
 ```  
-OJO: Esto es una correccion.
+OJO: Esto es una correccion
 
 
