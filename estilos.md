@@ -46,18 +46,26 @@ OJO: Prueba este [recurso](https://gradients.app/es/new) para crear gradientes.
 
 ```css
 div {
-    /* Modelo hsl */
+    /* Modelo hsl (Es mas tecnico) */
+    /* Matiz - Saturacion - Luz */
     color: hsl(120, 100%, 50%);
     /* Modelo hsla */
+    /* Matiz - Saturacion - Luz - Alfa(Transparencia) */
     color: hsla(120, 100%, 50%, 0.5);
-    /* Modelo lab */
+    /* Modelo lab (Tiene mas precision) (Uso cientifico) */
     background-color: lab(100 0 100);
-    /* Modelo lch */ 
+    /* Modelo lch (Ayuda mucho con los contrastes) */ 
+    /* Luminosidad - Croma - Matiz */
     background-color: lch(40% 100 0);
-    /* Modelo oklch */
+    /* Modelo oklch (Funciona igual que lch, pero es de uso cientifico) */
     background-color: oklch(0.41 0.44 1.18);
   }
 ```  
-OJO: Esto es una correccion
+OJO: Puedes usar herramientas como [lab](https://observablehq.com/@d3/lab-color-picker) y [lch](https://lch.oklch.com/#70,39,227,100) para tener una mejor visualizacion de los colores en cada modelo. 
 
+---
+
+### Mezcla
+
+c
 
