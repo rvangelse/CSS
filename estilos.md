@@ -67,5 +67,18 @@ OJO: Puedes usar herramientas como [lab](https://observablehq.com/@d3/lab-color-
 
 ### Mezcla
 
-c
+```css
+
+div {   /* Mezcla de colores usando el modelo rgb */
+        background-color: color-mix(in srgb, red 50%, blue 50%);
+        /* Mezcla de colores usando el modelo hsl */
+        background-color: color-mix(in hsl, red 50%, blue 50%);
+        /* Mezcla de colores usando el modelo lch */ 
+        background-color: color-mix(in lch, red 50%, blue 50%); 
+    }
+```
+---
+### Colores relativos
+
+
 
