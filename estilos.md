@@ -18,6 +18,8 @@ body { /* El tamaño se adapta a los elementos */
     background-color: blue;
 }
 ```
+OJO: `background-size: cover;` ajusta la imagen de fondo al tamaño del contenedor.
+
 ---
 ### Color
 ```css
@@ -87,10 +89,88 @@ Sirve para transformar un color a otro.
 }
 
 div {
-      /* Transformacion del color azul usando el modelo hsl */
+      /* Transformacion del color azul a un color relativo, usando modelo hsl */
       background: hsl(from var(--principal) calc(h + 100) s l);
 }
 ```
+---
+### Practica 4: Estilos en CSS
+
+**Codigo**
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deportes</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header{
+            background-image: url('https://btlive.tv/wp-content/uploads/2020/11/171115171-1140x474.jpg');
+            background-repeat: no-repeat;
+            color: white;
+            background-size: cover;
+            background-position: center;
+            padding: 50px 0; 
+            text-align: center;
+        }
+
+        main{
+            background: linear-gradient(to bottom, #2980b9, #6dd5fa);
+            text-align: center;
+            padding: 109px 20px;
+        }
+
+        main img{
+            width: 100%;
+            max-width: 300px;
+            margin: 20px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+
+        footer{
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Landing Page de Deportes</h1>
+        <p>¡Encuentra todo lo que necesites para mantenerte activo!</p>
+    </header>
+    <main>
+        <img src="https://th.bing.com/th/id/OIP.KsBDSX5McKjZJpADdH9vLgHaEz?pid=ImgDet&rs=1" alt="Deporte 1">
+        <h2>Deporte 1</h2>
+        <p> Descripción del deporte. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <a href="#">Ver mas</a>
+    </main>
+    <footer>
+        <small>&copy 2025 Landing Page de Deportes</small>
+    </footer>
+</body>
+</html>
+```
+**Output**
+
+<p align="center">
+  <img src="imagenes/grafico6.png" width="650">
+</p>
+
+
 
 
 
