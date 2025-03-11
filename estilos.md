@@ -16,7 +16,7 @@ body { /* El tamaño se adapta a los elementos */
     background-position: center;
     background-size: 100px;
     background-color: blue;
-    }
+}
 ```
 ---
 ### Color
@@ -35,7 +35,7 @@ h1 {
     color: rgba(255, 0, 0, 1);
     /* Colores en Hexadecimal */
     color: #0011ff;
-  }
+}
 ```
 OJO: Es recomendable usar los formatos `RGB` y `RGBA` 
 
@@ -59,13 +59,13 @@ div {
     background-color: lch(40% 100 0);
     /* Modelo oklch (Funciona igual que lch, pero es de uso cientifico) */
     background-color: oklch(0.41 0.44 1.18);
-  }
+}
 ```  
 OJO: Puedes usar herramientas como [lab](https://observablehq.com/@d3/lab-color-picker) y [lch](https://lch.oklch.com/#70,39,227,100) para tener una mejor visualizacion de los colores en cada modelo. 
 
 ---
 
-### Mezcla
+### Mezcla de colores 
 
 ```css
 
@@ -75,10 +75,22 @@ div {   /* Mezcla de colores usando el modelo rgb */
         background-color: color-mix(in hsl, red 50%, blue 50%);
         /* Mezcla de colores usando el modelo lch */ 
         background-color: color-mix(in lch, red 50%, blue 50%); 
-    }
+}
 ```
 ---
 ### Colores relativos
+Sirve para transformar un color a otro.
+
+```css
+:root {
+        --principal: blue; /* Declaro una variable global "principal" */
+}
+
+div {
+      /* Transformacion del color azul usando el modelo hsl */
+      background: hsl(from var(--principal) calc(h + 100) s l);
+}
+```
 
 
 
