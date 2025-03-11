@@ -14,4 +14,38 @@ OJO: Es una buena practica, usar `flex-box` y `CSS-grid` para diseñar tus layou
 
 ---
 
-###
+### Posiciones
+
+```css
+div {
+    width: 80px;
+    height: 80px;
+    position: relative; /* Sus elementos hijos lo usaran como sistema de referencia para su posicion */
+}
+
+#primero {
+    /* Posicion por default */
+    position: static;
+
+    /* Posicion relativa al flujo del documento */
+    position: relative;
+    top: 10px; 
+    left: 50px;
+    bottom: 20px;
+    right: 10px;
+
+    /* Posicion relativa a un sistema de referencia, fuera del flujo del documento */
+    position: absolute;
+    z-index: 1; /* Variable de altura relativa */
+    left: 20px; 
+    top: 40px; 
+
+    /* Igual que absolute, solo que se mantiene flotando */
+    position: fixed; 
+    left: 20px;
+    top: 40px;
+}
+
+```
+
+OJO: Si no especificas un padre como `relative` al usar `position: absolute` o `position: fixed`, el padre sera el documento html. 
