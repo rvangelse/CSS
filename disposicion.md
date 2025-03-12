@@ -64,7 +64,7 @@ div {
   height: 80px;
 }
 
-#primero { 
+#primero {
   float: left; /* El elemento flota a la izquierda */
 }
 
@@ -77,8 +77,27 @@ p {
   clear: both; /* Hace que el texto no envuelva a los floats, los ignora */
 }
 ```
+
 OJO: `overflow: hidden;` evita que los elementos floten fuera de su contenedor.
 
 ---
+
 ### Caja flexible
 
+Flexbox sirve para alinear elementos dentro de un contenedor, haciendolos adaptables y responsivos.
+
+```css
+.contenedor {
+  height: 80px;
+  background: rgb(187, 255, 0);
+  display: flex; /* Los elementos dentro del contenedor seran flexibles */
+  flex-direction: row; /* Se posicionaran en fila */
+  justify-content: center; /* Espacio entre los elementos del contenedor (eje principal) */
+  align-items: center; /* Espacio entre los elementos del contenedor (eje opuesto) */
+  flex-wrap: wrap; /* Cuando se alcanza el "max-width", salta a la siguiente linea */
+}
+```
+OJO: Puedes profundizar mas en flexbox con recursos como [CSS Flexible Box Layout Module](https://www.w3.org/TR/css-flexbox-1/) o [Flexbox Froggy](https://flexboxfroggy.com/#es).
+
+---
+### Cuadrícula
