@@ -106,4 +106,37 @@ input::placeholder {
 ---
 
 ### Anidamiento
+```css
 
+div {
+    color: black;
+
+    /* Puedes hacer esto para estilizar el "p" dentro del div, sin escribir un nuevo selector global */
+    p {
+        color: blue;
+    }
+}
+
+```
+---
+
+### Capas
+En CSS puedes crear capas con diferentes estilos para obtener diseños super personalizados y modulares.
+
+```css
+
+@layer base, top;
+
+    @layer base { /* Primera capa */
+        div {
+            background-color: yellow;
+        }
+    }
+
+    @layer top { /* Segunda capa */
+        div {
+            background-color: aqua;
+        }
+    }
+```
+OJO: La `capa superior` sobreescribe los estilos de las capas inferiores, rompiendo el `efecto cascada` de CSS.
