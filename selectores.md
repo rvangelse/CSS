@@ -68,5 +68,42 @@ p:has(span) { /* Hijos de "p" que contienen un "span" */
 Son elementos creados directamente desde CSS 
 
 ```css
+/* Crea un elemento y lo inserta justo antes del elemento de HTML */
+p::before {
+    content: "Antes de este texto";
+    color: red;
+}
+
+/* Crea un elemento y lo inserta justo despues del elemento de HTML */
+p::after {
+    content: "Antes de este texto";
+    color: green;
+}
+
+/* Envuelve la primera linea del elemento de HTML, con una especie de "span" */
+p::first-line {
+    font-weight: bold;
+}
+
+/* Envuelve la primera letra del elemento de HTML, con una especie de "span" */
+p::first-letter {
+        font-size: 24px;
+        color: blue;
+}
+
+/* Crea un "span dinamico" que envuelve los elementos de HTML en tiempo real, seleccionandolos */
+p::selection {
+    background-color: yellow;
+}
+
+/* Envuelve el "placeholder" con un "span" modificable */
+input::placeholder {
+    color: pink;
+    font-style: italic;
+    background-color: blue;
+}
 ```
+---
+
+### Anidamiento
 
