@@ -174,6 +174,172 @@ OJO: `CSS Grid` funciona mejor en conjunto con otras técnicas de diseño, como 
 ### Practica 5: Disposicion en CSS
 
 **Codigo**
-```html 
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comida rapida</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: hsl(61, 100%, 56%);
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav{
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: hsl(0, 100%, 50%);
+            font-size: 15px;
+            font-weight: bold;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 120px 20px 20px; 
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        div{
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px;
+            width: 200px;
+        }
+
+        div img{
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Productos</a>
+            <a href="#">Servicios</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <img src="https://th.bing.com/th/id/R.397d033dfab8d6a17d58dd509f0ab463?rik=6Cmqa4gfHF%2bVug&pid=ImgRaw&r=0" alt="Imagen Refrescos">
+            <h2>Tarjeta 1</h2>
+            <p>Descripcion de la tarjeta 1.</p>
+            <a href="#">Ver mas</a>
+        </div>
+        <div>
+            <img src="https://www.vvsupremo.com/wp-content/uploads/2016/02/900X570_Mexican-Style-Hot-Dogs.jpg" alt="Imagen Hotdog">
+            <h2>Tarjeta 2</h2>
+            <p>Descripcion de la tarjeta 2.</p>
+            <a href="#">Ver mas</a>
+        </div>
+        <div>
+            <img src="https://th.bing.com/th/id/R.b2d883bbff785661dd0b469249f029a3?rik=HJ9TIZsanbuvUg&pid=ImgRaw&r=0" alt="Imagen Hamburguesa">
+            <h2>Tarjeta 3</h2>
+            <p>Descripcion de la tarjeta 3.</p>
+            <a href="#">Ver mas</a>
+        </div>
+        <div>
+            <img src="https://th.bing.com/th/id/OIP.7_p-KUoioBOBr2PN_TYbLgHaEo?pid=ImgDet&rs=1" alt="Imagen Pizza">
+            <h2>Tarjeta 4</h2>
+            <p>Descripcion de la tarjeta 4.</p>
+            <a href="#">Ver mas</a>
+        </div>
+        <div>
+            <img src="https://th.bing.com/th/id/R.397d033dfab8d6a17d58dd509f0ab463?rik=6Cmqa4gfHF%2bVug&pid=ImgRaw&r=0" alt="Imagen Refrescos">
+            <h2>Tarjeta 1</h2>
+            <p>Descripcion de la tarjeta 1.</p>
+            <a href="#">Ver mas</a>
+        </div>
+        <div>
+            <img src="https://www.vvsupremo.com/wp-content/uploads/2016/02/900X570_Mexican-Style-Hot-Dogs.jpg" alt="Imagen Hotdog">
+            <h2>Tarjeta 2</h2>
+            <p>Descripcion de la tarjeta 2.</p>
+            <a href="#">Ver mas</a>
+        </div>
+        <div>
+            <img src="https://th.bing.com/th/id/R.b2d883bbff785661dd0b469249f029a3?rik=HJ9TIZsanbuvUg&pid=ImgRaw&r=0" alt="Imagen Hamburguesa">
+            <h2>Tarjeta 3</h2>
+            <p>Descripcion de la tarjeta 3.</p>
+            <a href="#">Ver mas</a>
+        </div>
+        <div>
+            <img src="https://th.bing.com/th/id/OIP.7_p-KUoioBOBr2PN_TYbLgHaEo?pid=ImgDet&rs=1" alt="Imagen Pizza">
+            <h2>Tarjeta 4</h2>
+            <p>Descripcion de la tarjeta 4.</p>
+            <a href="#">Ver mas</a>
+        </div>
+        <div>
+            <img src="https://th.bing.com/th/id/R.397d033dfab8d6a17d58dd509f0ab463?rik=6Cmqa4gfHF%2bVug&pid=ImgRaw&r=0" alt="Imagen Refrescos">
+            <h2>Tarjeta 1</h2>
+            <p>Descripcion de la tarjeta 1.</p>
+            <a href="#">Ver mas</a>
+        </div>
+        <div>
+            <img src="https://www.vvsupremo.com/wp-content/uploads/2016/02/900X570_Mexican-Style-Hot-Dogs.jpg" alt="Imagen Hotdog">
+            <h2>Tarjeta 2</h2>
+            <p>Descripcion de la tarjeta 2.</p>
+            <a href="#">Ver mas</a>
+        </div>
+        <div>
+            <img src="https://th.bing.com/th/id/R.b2d883bbff785661dd0b469249f029a3?rik=HJ9TIZsanbuvUg&pid=ImgRaw&r=0" alt="Imagen Hamburguesa">
+            <h2>Tarjeta 3</h2>
+            <p>Descripcion de la tarjeta 3.</p>
+            <a href="#">Ver mas</a>
+        </div>
+        <div>
+            <img src="https://th.bing.com/th/id/OIP.7_p-KUoioBOBr2PN_TYbLgHaEo?pid=ImgDet&rs=1" alt="Imagen Pizza">
+            <h2>Tarjeta 4</h2>
+            <p>Descripcion de la tarjeta 4.</p>
+            <a href="#">Ver mas</a>
+        </div>
+        <div>
+            <img src="https://th.bing.com/th/id/R.397d033dfab8d6a17d58dd509f0ab463?rik=6Cmqa4gfHF%2bVug&pid=ImgRaw&r=0" alt="Imagen Refrescos">
+            <h2>Tarjeta 1</h2>
+            <p>Descripcion de la tarjeta 1.</p>
+            <a href="#">Ver mas</a>
+        </div>
+        <div>
+            <img src="https://www.vvsupremo.com/wp-content/uploads/2016/02/900X570_Mexican-Style-Hot-Dogs.jpg" alt="Imagen Hotdog">
+            <h2>Tarjeta 2</h2>
+            <p>Descripcion de la tarjeta 2.</p>
+            <a href="#">Ver mas</a>
+        </div>
+        <div>
+            <img src="https://th.bing.com/th/id/R.b2d883bbff785661dd0b469249f029a3?rik=HJ9TIZsanbuvUg&pid=ImgRaw&r=0" alt="Imagen Hamburguesa">
+            <h2>Tarjeta 3</h2>
+            <p>Descripcion de la tarjeta 3.</p>
+            <a href="#">Ver mas</a>
+        </div>
+    </main>
+</body>
+</html>
 
 ```
+**Output**
+
+<p align="center">
+  <img src="imagenes/grafico8.png" width="650">
+</p>
