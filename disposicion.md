@@ -84,7 +84,9 @@ OJO: `overflow: hidden;` evita que los elementos floten fuera de su contenedor.
 
 ### Caja flexible
 
-Flexbox sirve para alinear elementos dentro de un contenedor, haciendolos adaptables y responsivos.
+`Flexbox` sirve para alinear elementos dentro de un contenedor, haciendolos adaptables y responsivos.
+
+Es perfecto para ordenar elementos en una sola dimension.
 
 ```css
 .contenedor {
@@ -97,7 +99,81 @@ Flexbox sirve para alinear elementos dentro de un contenedor, haciendolos adapta
   flex-wrap: wrap; /* Cuando se alcanza el "max-width", salta a la siguiente linea */
 }
 ```
+
 OJO: Puedes profundizar mas en flexbox con recursos como [CSS Flexible Box Layout Module](https://www.w3.org/TR/css-flexbox-1/) o [Flexbox Froggy](https://flexboxfroggy.com/#es).
 
 ---
+
 ### Cuadrícula
+
+`CSS Grid` es perfecto para ordenar elementos en dos dimensiones.
+
+```css
+/*OJO: Este es el truco para ocupar toda la pagina */
+html {
+  height: 100%; /* OJO */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100%; /* OJO */
+  display: grid;
+  grid-template-columns: 100px auto; /* 2 columnas */
+  grid-template-rows: 40px auto 100px; /* 3 filas */
+  gap: 10px; /* Espacio entre elementos */
+}
+
+/* Formateo los elementos del grid (contenedores)*/
+nav, aside, main, footer {
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+nav {
+  background: lightsalmon;
+  justify-content: space-around;
+  /* Posicion Vertical */
+  grid-row-start: 1; /* Empieza en la fila 1 */
+  grid-row-end: 2; /* Termina en la fila 2 */
+  /* Posicion Horizontal */
+  grid-column-start: 1; /* Empieza en la columna 1 */
+  grid-column-end: 3; /* Termina en la columna 3 */
+}
+
+aside {
+  background: violet;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+main {
+  background: greenyellow;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+footer {
+  background: lightseagreen;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+```
+OJO: Puedes usar recursos como [Grid Garden](https://cssgridgarden.com/#es) para profundizar mas en `CSS Grid`.
+
+OJO: Es más eficiente y fácil manejar tus elementos si los separas en multiples cuadrículas pequeñas.
+
+OJO: `CSS Grid` funciona mejor en conjunto con otras técnicas de diseño, como `Flexbox`.
+
+---
+### Practica 5: Disposicion en CSS
+
+**Codigo**
+```html 
+
+```
