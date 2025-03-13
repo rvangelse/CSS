@@ -156,6 +156,6 @@ span {
 
 <div style="display: flex; justify-content: center; flex-wrap: wrap;">
   <img src="imagenes/grafico9.png" height="350" width="60%" style="padding: 15px;" >
-  <img src="imagenes/grafico10.png" height="350"  width="30%" style="padding:15px;" >
+  <img src="imagenes/grafico10.png" height="350"  width="35%" style="padding:15px;" >
 </div>
 
