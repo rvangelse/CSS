@@ -57,4 +57,21 @@ OJO: No todos los elementos se pueden transformar.
 
 ---
 ### Transiciones
+Las `transiciones`son el cambio de un elemento de un estado a otro, usando CSS
 
+```css
+/* En esta transicion el elemento duplica su width al posar el cursor sobre el */
+div {
+    width: 150px;
+    height: 150px;
+    background-color: coral;
+    /* Propiedad - Intervalo - Curva de efecto */
+    transition: width 1s ease-in-out;
+
+    &:hover{
+        width: 300px;
+    }
+}
+```
+---
+### Animaciones
