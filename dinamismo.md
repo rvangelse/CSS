@@ -246,10 +246,8 @@ OJO: Un error común es usar valores absolutos (`px`) en lugar de relativos (`%`
 <div style="display: flex; justify-content: space-around; flex-wrap: wrap; ">
   <figure>
     <img src="imagenes/grafico11.png" height="320" width="60%">
-    <figcaption style ="text-align: center;">Desktop</figcaption>
   </figure>
   <figure>
     <img src="imagenes/grafico12.png" height="320"  width="25%" >
-    <figcaption style ="text-align: center;">Mobile</figcaption>
   </figure>
 </div>
