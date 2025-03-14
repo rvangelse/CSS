@@ -244,6 +244,6 @@ OJO: Un error común es usar valores absolutos (`px`) en lugar de relativos (`%`
 **Output**
 
 <div style="display: flex; justify-content: space-around; flex-wrap: wrap; ">
-    <img src="imagenes/grafico11.png" height="320" width="60%">
-    <img src="imagenes/grafico12.png" height="320" width="25%">
+    <img src="imagenes/grafico11.png" height="300" width="60%">
+    <img src="imagenes/grafico12.png" height="300" width="25%">
 </div>
