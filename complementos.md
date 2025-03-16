@@ -65,7 +65,7 @@ OJO: Existen recursos para hacer esto más fácil, por ejemplo:
             }
 
             .largo, .largo-blanco{
-            grid-column: span 3; /* Ocupa 3 columnas */
+            grid-column: span 3; /* Ocupan 3 columnas */
             }
 
             .largo-blanco:hover{
@@ -141,3 +141,5 @@ OJO: Existen recursos para hacer esto más fácil, por ejemplo:
 <p align="center">
   <img src="imagenes/grafico13.png" width="650">
 </p>
+
+OJO: Este proyecto no es mobile-responsive

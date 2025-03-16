@@ -21,3 +21,10 @@ OJO: En proyectos muy pequeños, pruebas o prototipos usa CSS en la etiqueta `<s
 OJO: Es una buena practica resetear los estilos de un proyecto, al iniciarlo.
 
 Puedes usar `resets` como [meyerweb](https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css).
+
+---
+### Recursos 
+
+* [mdn web docs](https://developer.mozilla.org/en-US/docs/Web/CSS) (Página de consultas)
+
+* [W3](https://www.w3.org/Style/CSS/specs.en.html) (Contenido más avanzado)
