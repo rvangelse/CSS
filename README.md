@@ -67,6 +67,8 @@ Apuntes sobre los fundamentos de CSS
    - [Prefijos y soporte](complementos.md#prefijos-y-soporte)
    - [Practica Extra: Paleta de Colores](complementos.md#practica-extra-paleta-de-colores)
 
+11. [**Preguntas tipo Entrevista**](preguntas.md)
+
 ## Cómo usar este repositorio
 
 Cada tema cuenta con ejemplos prácticos y explicaciones detalladas. Puedes clonar el repositorio y ejecutar los archivos en tu navegador o entorno de desarrollo favorito.
