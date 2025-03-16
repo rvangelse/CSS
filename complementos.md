@@ -18,7 +18,7 @@ OJO: Existen recursos para hacer esto más fácil, por ejemplo:
 * [autoprefixer](https://www.npmjs.com/package/autoprefixer) es un plugin que se encarga de chequear todo esto.
 
 ---
-### Practica Extra: Paleta 
+### Practica Extra: Paleta de Colores
 
 **Codigo**
 ```html
