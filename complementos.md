@@ -142,4 +142,4 @@ OJO: Existen recursos para hacer esto más fácil, por ejemplo:
   <img src="imagenes/grafico13.png" width="650">
 </p>
 
-OJO: Este proyecto no es mobile-responsive
+OJO: Este proyecto no es `responsive`
