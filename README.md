@@ -64,8 +64,8 @@ Apuntes sobre los fundamentos de CSS
    - [Practica 7: Dinamismo en CSS](dinamismo.md#practica-7-dinamismo-en-css)
 
 10. [**Complementos**](complementos.md)
-   - [Prefijos y soporte](complementos.md#prefijos-y-soporte)
-   - [Practica Extra: Paleta de Colores](complementos.md#practica-extra-paleta-de-colores)
+    - [Prefijos y soporte](complementos.md#prefijos-y-soporte)
+    - [Practica Extra: Paleta de Colores](complementos.md#practica-extra-paleta-de-colores)
 
 11. [**Preguntas tipo Entrevista**](preguntas.md)
 
